@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choco Chasing - Energía Deliciosa / Delicious Energy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf7ec;
+      margin: 0;
+      padding: 0;
+      color: #2e1a0f;
+    }
+    header {
+      background-color: #5a2d18;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .column {
+      width: 45%;
+      min-width: 300px;
+      margin: 10px;
+      padding: 20px;
+      background-color: #fff5e0;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #8b3a24;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✅ ";
+    }
+    .highlight {
+      background-color: #ffe0a8;
+      padding: 15px;
+      border-radius: 10px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    .product-image {
+      text-align: center;
+    }
+    .enhanced-image {
+      max-width: 250px;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .enhanced-image:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    }
+    .button {
+      background-color: #ff7b00;
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      margin: 20px auto;
+      width: fit-content;
+    }
+    .button:hover {
+      background-color: #e06600;
+    }
+    .footer {
+      background-color: #40200f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="chocolate.png" alt="Choco Chasing Logo">
+    <h1>Choco Chasing</h1>
+    <p>Energy Boosting · Since 2024</p>
+  </header>
+  <div class="product-image">
+    <img src="chocolate.png" alt="Choco Chasing Product" class="enhanced-image">
+  </div>
+  <div class="container">
+    <div class="column">
+      <h2>¡Energía que sabe a recompensa!</h2>
+      <p>Choco Chasing es un delicioso chocolate con 70% cacao que te da el impulso de energía natural que necesitas para rendir al máximo.</p>
+      <h3>Características:</h3>
+      <ul>
+        <li>70% cacao puro</li>
+        <li>Ingredientes naturales: maca, chía, almendras y miel</li>
+        <li>Sin azúcar refinada</li>
+        <li>Antioxidantes y energía natural</li>
+      </ul>
+      <div class="highlight">
+        💥 Oferta especial: “First Bite Deal” solo ₡990 (precio regular: ₡1.200)
+      </div>
+      <h3>Testimonio</h3>
+      <p>"¡Choco Chasing es mejor que el café! Me ayudó a concentrarme antes de un examen." <br>— María, 20 años</p>
+      <h3>Promociones:</h3>
+      <ul>
+        <li>🚚 Envío gratis por compras mayores a ₡5.000</li>
+        <li>🎁 Compra 2 paquetes y recibe 1 mini chocolate gratis</li>
+      </ul>
+      <a class="button" href="https://wa.me/50662094359?text=Hola,%20quiero%20comprar%20Choco%20Chasing" target="_blank">¡Quiero mi Choco Chasing!</a>
+    </div>
+    <div class="column">
+      <h2>Energy that tastes like a reward!</h2>
+      <p>Choco Chasing is a delicious 70% cacao chocolate that gives you the natural energy boost you need to stay sharp and productive.</p>
+      <h3>Features:</h3>
+      <ul>
+        <li>70% pure cacao</li>
+        <li>Natural ingredients: maca, chia, almonds & honey</li>
+        <li>No refined sugar</li>
+        <li>Antioxidants & natural energy</li>
+      </ul>
+      <div class="highlight">
+        💥 Special Offer: “First Bite Deal” just ₡990 (regular price: ₡1,200)
+      </div>
+      <h3>Testimonial</h3>
+      <p>"Choco Chasing is better than coffee! It helped me stay focused before my exam." <br>— Maria, age 20</p>
+      <h3>Promotions:</h3>
+      <ul>
+        <li>🚚 Free shipping on orders over ₡5,000</li>
+        <li>🎁 Buy 2 packs and get 1 mini chocolate free</li>
+      </ul>
+      <a class="button" href="https://wa.me/50662094359?text=Hi,%20I'm%20interested%20in%20buying%20Choco%20Chasing" target="_blank">Buy Now!</a>
+    </div>
+  </div>
+  <div class="footer">
+    <p>🔥 Brain Fuel · A delicious energy boost for your busy day</p>
+    <p>&copy; 2024 Choco Chasing</p>
+  </div>
+</body>
+</html>
